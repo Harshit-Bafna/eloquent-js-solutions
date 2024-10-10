@@ -9,4 +9,6 @@ const minimum = (a, b) => {
     return a < b ? a : b;
 }
 
-console.log(minimum(2, 3))
+let a = prompt("Enter first number: ")
+let b = prompt("Enter second number: ")
+console.log(minimum(a, b))
